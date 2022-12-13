@@ -21,6 +21,7 @@
 		B30CD2352947EE900067FA3A /* ChatGPTWebViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD2342947EE900067FA3A /* ChatGPTWebViewStore.swift */; };
 		B30CD2392947EFAC0067FA3A /* WebViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD2382947EFAC0067FA3A /* WebViewStore.swift */; };
 		B30CD23B2947F1440067FA3A /* ChatGPTPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD23A2947F1440067FA3A /* ChatGPTPage.swift */; };
+		B30CD23C2948F5570067FA3A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B30CD22229452F150067FA3A /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -179,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30CD23C2948F5570067FA3A /* Info.plist in Resources */,
 				B30CD217294519680067FA3A /* Preview Assets.xcassets in Resources */,
 				B30CD23029478B720067FA3A /* script.js in Resources */,
 				B30CD214294519680067FA3A /* Assets.xcassets in Resources */,
