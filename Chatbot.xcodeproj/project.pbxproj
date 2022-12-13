@@ -11,6 +11,16 @@
 		B30CD212294519670067FA3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD211294519670067FA3A /* ContentView.swift */; };
 		B30CD214294519680067FA3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30CD213294519680067FA3A /* Assets.xcassets */; };
 		B30CD217294519680067FA3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30CD216294519680067FA3A /* Preview Assets.xcassets */; };
+		B30CD224294530500067FA3A /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD223294530500067FA3A /* ModelData.swift */; };
+		B30CD226294530E20067FA3A /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD225294530E20067FA3A /* Chat.swift */; };
+		B30CD228294531C70067FA3A /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD227294531C70067FA3A /* MessageRow.swift */; };
+		B30CD22C29456EBF0067FA3A /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD22A29456EBF0067FA3A /* WebView.swift */; };
+		B30CD22D29456EBF0067FA3A /* ChatGPTAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD22B29456EBF0067FA3A /* ChatGPTAuth.swift */; };
+		B30CD23029478B720067FA3A /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = B30CD22F29478B720067FA3A /* script.js */; };
+		B30CD2332947E9590067FA3A /* ChatGPTAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD2312947E3710067FA3A /* ChatGPTAPI.swift */; };
+		B30CD2352947EE900067FA3A /* ChatGPTWebViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD2342947EE900067FA3A /* ChatGPTWebViewStore.swift */; };
+		B30CD2392947EFAC0067FA3A /* WebViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD2382947EFAC0067FA3A /* WebViewStore.swift */; };
+		B30CD23B2947F1440067FA3A /* ChatGPTPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30CD23A2947F1440067FA3A /* ChatGPTPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,18 @@
 		B30CD211294519670067FA3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B30CD213294519680067FA3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B30CD216294519680067FA3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B30CD22229452F150067FA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B30CD223294530500067FA3A /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		B30CD225294530E20067FA3A /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		B30CD227294531C70067FA3A /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		B30CD22A29456EBF0067FA3A /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		B30CD22B29456EBF0067FA3A /* ChatGPTAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatGPTAuth.swift; sourceTree = "<group>"; };
+		B30CD22E2945992F0067FA3A /* Chatbot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chatbot.entitlements; sourceTree = "<group>"; };
+		B30CD22F29478B720067FA3A /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		B30CD2312947E3710067FA3A /* ChatGPTAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTAPI.swift; sourceTree = "<group>"; };
+		B30CD2342947EE900067FA3A /* ChatGPTWebViewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTWebViewStore.swift; sourceTree = "<group>"; };
+		B30CD2382947EFAC0067FA3A /* WebViewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewStore.swift; sourceTree = "<group>"; };
+		B30CD23A2947F1440067FA3A /* ChatGPTPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +73,11 @@
 		B30CD20E294519670067FA3A /* Chatbot */ = {
 			isa = PBXGroup;
 			children = (
+				B30CD2372947EEFD0067FA3A /* View */,
+				B30CD2362947EEE60067FA3A /* Model */,
+				B30CD22E2945992F0067FA3A /* Chatbot.entitlements */,
+				B30CD22229452F150067FA3A /* Info.plist */,
 				B30CD20F294519670067FA3A /* ChatbotApp.swift */,
-				B30CD211294519670067FA3A /* ContentView.swift */,
 				B30CD213294519680067FA3A /* Assets.xcassets */,
 				B30CD215294519680067FA3A /* Preview Content */,
 			);
@@ -65,6 +90,31 @@
 				B30CD216294519680067FA3A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B30CD2362947EEE60067FA3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B30CD2342947EE900067FA3A /* ChatGPTWebViewStore.swift */,
+				B30CD2382947EFAC0067FA3A /* WebViewStore.swift */,
+				B30CD223294530500067FA3A /* ModelData.swift */,
+				B30CD22F29478B720067FA3A /* script.js */,
+				B30CD2312947E3710067FA3A /* ChatGPTAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B30CD2372947EEFD0067FA3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B30CD211294519670067FA3A /* ContentView.swift */,
+				B30CD225294530E20067FA3A /* Chat.swift */,
+				B30CD227294531C70067FA3A /* MessageRow.swift */,
+				B30CD22B29456EBF0067FA3A /* ChatGPTAuth.swift */,
+				B30CD22A29456EBF0067FA3A /* WebView.swift */,
+				B30CD23A2947F1440067FA3A /* ChatGPTPage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +133,8 @@
 			dependencies = (
 			);
 			name = Chatbot;
+			packageProductDependencies = (
+			);
 			productName = Chatbot;
 			productReference = B30CD20C294519670067FA3A /* Chatbot.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +163,8 @@
 				Base,
 			);
 			mainGroup = B30CD203294519670067FA3A;
+			packageReferences = (
+			);
 			productRefGroup = B30CD20D294519670067FA3A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B30CD217294519680067FA3A /* Preview Assets.xcassets in Resources */,
+				B30CD23029478B720067FA3A /* script.js in Resources */,
 				B30CD214294519680067FA3A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +192,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30CD224294530500067FA3A /* ModelData.swift in Sources */,
+				B30CD228294531C70067FA3A /* MessageRow.swift in Sources */,
 				B30CD212294519670067FA3A /* ContentView.swift in Sources */,
+				B30CD226294530E20067FA3A /* Chat.swift in Sources */,
+				B30CD22D29456EBF0067FA3A /* ChatGPTAuth.swift in Sources */,
+				B30CD2332947E9590067FA3A /* ChatGPTAPI.swift in Sources */,
 				B30CD210294519670067FA3A /* ChatbotApp.swift in Sources */,
+				B30CD2352947EE900067FA3A /* ChatGPTWebViewStore.swift in Sources */,
+				B30CD22C29456EBF0067FA3A /* WebView.swift in Sources */,
+				B30CD2392947EFAC0067FA3A /* WebViewStore.swift in Sources */,
+				B30CD23B2947F1440067FA3A /* ChatGPTPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,12 +328,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chatbot/Chatbot.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Chatbot/Preview Content\"";
 				DEVELOPMENT_TEAM = 97569SGGTN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chatbot/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.motianjun4.Chatbot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.motianjun4.chatgptbot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,12 +359,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chatbot/Chatbot.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Chatbot/Preview Content\"";
 				DEVELOPMENT_TEAM = 97569SGGTN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chatbot/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,7 +377,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.motianjun4.Chatbot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.motianjun4.chatgptbot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
