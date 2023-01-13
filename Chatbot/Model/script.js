@@ -17,11 +17,14 @@ addEventListener("load", (event) => {
         if (mutation.type === "childList" && mutation.addedNodes.length > 0) {
           for (const node of mutation.addedNodes) {
             if (node.classList.contains("bg-gray-50")) {
-              console.log("added", node);
+                console.log("added", node);
+                const getText = () => {
+                    return node.innerText.trim();
+                }
               mutations.push(node);
               let observer = new MutationObserver((mutations) => {
                 mutations.forEach((mutation) => {
-                  let text = mutation.target.textContent;
+                  let text = getText();
                   if (window.webkit) {
                       let msg = {text: text};
                     window.webkit.messageHandlers.handler.postMessage(msg);
